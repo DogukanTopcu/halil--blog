@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halil Ağırbaşlı</title>
+    <link rel="shortcut icon" type="image/x-icon" href="halil.PNG">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    </style>
+</head>
+<body class="w3-content" style="max-width:1600px">
+    <div class="darkMode">
+        <span class="dark">Dark Mode</span>
+        <label class="switch">
+          <input type="checkbox" onclick="ourFunction()" id="modeDark">
+          <span class="slider round"></span>
+        </label>
+    </div>
+
+
+
+    <nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+          <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+            <i class="fa fa-remove"></i>
+          </a>
+          <img src="halil.PNG" style="width:45%;" class="w3-round"><br><br>
+          <h4><b>Halil Ağırbaşlı</b></h4>
+        </div>
+        <div class="w3-bar-block">
+          <a onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Gönderiler</a> 
+          <a href="hakkimda-iletisim/about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Hakkımda</a> 
+          <a href="hakkimda-iletisim/contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>İletişim</a>
+        </div>
+        <div class="w3-panel w3-large">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="header">
+    <img src="halil.PNG" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+        <h1><b>Gönderilerim</b></h1>
+    
+    </div>
+  </header>
+
+
+    <!-- Blog entries -->
+    <div id="entries">
+      <!-- Blog entry -->
+      <div id="entrie" class="w3-card-4 w3-margin">
+        
+        <div class="w3-container">
+          <h3><b>TITLE HEADING</b></h3>
+          <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
+        </div>
+    
+        <div class="w3-container">
+          <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><a href="content/page1.html" class="w3-button w3-padding-large w3-border"><b>READ MORE »</b></a></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    
+      <!-- Blog entry -->
+      <div id="entrie1" class="w3-card-4 w3-margin">
+      
+        <div class="w3-container">
+          <h3><b>BLOG ENTRY</b></h3>
+          <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+        </div>
+    
+        <div class="w3-container">
+          <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><a  href="content/page1.html" class="w3-button w3-padding-large w3-border"><b>READ MORE »</b></a></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="entrie2" class="w3-card-4 w3-margin">
+      
+        <div class="w3-container">
+          <h3><b>BLOG ENTRY</b></h3>
+          <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+        </div>
+    
+        <div class="w3-container">
+          <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><a  href="content/page1.html" class="w3-button w3-padding-large w3-border"><b>READ MORE »</b></a></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="entrie3" class="w3-card-4 w3-margin">
+      
+        <div class="w3-container">
+          <h3><b>BLOG ENTRY</b></h3>
+          <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+        </div>
+    
+        <div class="w3-container">
+          <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><a  href="content/page1.html" class="w3-button w3-padding-large w3-border"><b>READ MORE »</b></a></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="entrie4" class="w3-card-4 w3-margin">
+      
+        <div class="w3-container">
+          <h3><b>BLOG ENTRY</b></h3>
+          <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+        </div>
+    
+        <div class="w3-container">
+          <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><a  href="content/page1.html" class="w3-button w3-padding-large w3-border"><b>READ MORE »</b></a></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+
+  
+
+
+
+    <script src="blog.js" charset="utf-8"></script>
+</body>
+</html>
